@@ -12,3 +12,75 @@ img,
 video {
   display: block;
 }
+
+.body {
+  display: flex;
+  width: 1728px;
+  height: 1117px;
+  padding-right: 1528px;
+  align-items: center;
+}
+
+.logo {
+  width: 28px;
+  height: 28px;
+}
+
+.first-text {
+  color: #754ff6;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.un {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.deux {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.trois {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rail {
+  display: flex;
+  width: 200px;
+  padding: 50px 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 2px 0px 6px 0px rgba(0, 0, 0, 0.25);
+  height: 100vh;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.second-text {
+  color: #e5807c;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+}
